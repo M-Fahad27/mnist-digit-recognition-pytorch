@@ -53,11 +53,14 @@ This project demonstrates a complete **end-to-end deep learning workflow**:
 ---
 
 ## 📂 Project Structure
-├── train.py # Training, evaluation, and saving the model
-├── test.py # Load trained model and predict digit from image
-├── mnist_model.pth # Saved trained weights
-├── test_digit.png # Sample handwritten digit
-└── README.md
+
+```text
+.
+├── train.py           # Training, evaluation, and saving the model
+├── test.py            # Script to load the model and predict digits from custom images
+├── mnist_model.pth    # Saved state dictionary (trained weights)
+├── test_digit.png     # Sample handwritten digit for testing
+└── README.md          # Project documentation and setup guide
 
 
 ---
@@ -66,7 +69,7 @@ This project demonstrates a complete **end-to-end deep learning workflow**:
 
 ```bash
 git clone https://github.com/M-Fahad27/mnist-digit-recognition-pytorch
-cd your-repo-name
+cd mnist-digit-recognition-pytorch
 pip install torch torchvision opencv-python numpy
 ```
 
@@ -121,8 +124,8 @@ Predicted Digit: 7
 
 ## 👨‍💻 Author
 
-# Muhammad Fahad
-# Aspiring AI Engineer | Machine Learning | Deep Learning
+Muhammad Fahad
+Aspiring AI Engineer | Machine Learning | Deep Learning
 
 ---
 
