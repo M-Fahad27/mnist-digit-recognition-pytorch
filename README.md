@@ -61,7 +61,7 @@ This project demonstrates a complete **end-to-end deep learning workflow**:
 ├── mnist_model.pth    # Saved state dictionary (trained weights)
 ├── test_digit.png     # Sample handwritten digit for testing
 └── README.md          # Project documentation and setup guide
-
+```
 
 ---
 
